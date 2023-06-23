@@ -1,0 +1,130 @@
+.b3_text{
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.b3_upper{
+    background: linear-gradient(168deg, rgb(233, 244, 255) 0%, rgb(255, 255, 255) 100%);
+    padding-top: 2vw;
+    padding-bottom: 8vw;
+    position: relative;
+    width: auto;
+    padding: 0.5rem 12rem;
+    -webkit-box-align: center;
+    align-items: center;
+
+}
+.b3_p1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    margin: 0;
+}
+.b3_p2{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: rgb(54, 55, 75);
+    margin: 0;
+}
+
+@media (max-width: 1080px){
+.cards {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}}
+
+@media (max-width: 1440px){
+.cards {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}}
+.cards {
+    display: grid;
+    gap: 2vw;
+    margin-top: 4vw;
+    position: inherit;
+    z-index: 10;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+@media (max-width: 1080px){
+.card_img {
+    width: 30%;
+}}
+@media (max-width: 1240px){
+.card_img {
+    width: 30%;
+}}
+@media (max-width: 1440px){
+.card_img {
+    width: 30%;
+}}
+.card_img {
+    color: transparent;
+    width: 30%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+.kkard{
+    background-color: #edffec;
+}
+@media (max-width: 1080px){
+.kkard {
+    flex-direction: row;
+}}
+
+@media (max-width: 1240px){
+.kkard {
+    flex-direction: column;
+}}
+@media (max-width: 1440px){
+.kkard {
+    flex-direction: row;
+}}
+.kkard {
+    padding: 2rem;
+    z-index: 20;
+    position: relative;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.card_img_upper{
+    display: contents;
+}
+.kkard2{
+    background-color: #fff1ca;
+}
+.kkard3{
+    background-color: #ffeee7;
+}
+.kkard4{
+    background-color: #fff5e7;
+}
+
+.kkard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 0px rgba(0,0,0,0.5);
+    transition: all 0.3s;
+    z-index: 10;
+    background-color: white;
+    .card_img{
+        filter: none;
+    }
+}
+.left_stripe {
+    position: absolute;
+    top: 2%;
+    left: 0px;
+    z-index: 0;
+}
+.right_stripe {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+}

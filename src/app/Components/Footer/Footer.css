@@ -1,0 +1,115 @@
+.footerimg{
+    color: transparent;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+}
+.footer{
+    height: 100%;
+}
+
+
+.footer_text_upper{
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    opacity: 1;
+    text-align: center;
+}
+.footer_text_under{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 10rem;
+}
+@media (max-width: 1080px){
+.footer_text_under {
+    padding: 2rem 3rem;
+}}
+@media (max-width: 1240px){
+.footer_text_under {
+    padding: 2rem 5rem;
+}}
+@media (max-width: 1440px){
+.footer_text_under {
+    padding: 2rem 10rem;
+}}
+.footer_logo{
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(236, 239, 245);
+    padding: 20px 0px;
+}
+
+@media (max-width: 1440px){
+.footer_logo_img {
+    height: 4vw;
+    margin: 0px -20px;
+}}
+
+@media (max-width: 1240px){
+.footer_logo_img {
+    height: 3vw;
+    margin: 0px -20px;
+}}
+.footer_logo_img {
+    height: 3vw;
+}
+
+.footer_bottom_1{
+    width: 100%;
+    margin-top: 3vw;
+}
+@media (max-width: 1240px){
+.footer_bottom_2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0px -20px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}}
+
+@media (max-width: 1440px){
+.footer_bottom_2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0px -20px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}}
+.footer_bottom_2 {
+    padding: 0px 20px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px -20px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+}
+
+.company_p{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: start;
+    margin-bottom: 16px;
+}
+.company > a{
+    font-size: 16px;
+    color: white;
+    display: flex;
+    margin-bottom: 12px;
+    text-decoration: none;
+    font-family: Graphie;
+    font-style: normal;
+    font-weight: 400;
+}

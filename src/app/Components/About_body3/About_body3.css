@@ -1,0 +1,62 @@
+.ab_b3_1 > p{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    color: rgb(47, 52, 64);
+    margin: 0;
+}
+.ab_b3{
+    width: auto;
+    padding: 0.5rem 12rem;
+    padding-bottom: 6rem;
+    background-color: rgb(250, 251, 254);
+}
+.ab_b3_1{
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    margin: 48px 0px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.ab_b3_2{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+.ab_b3_2 > div > img{
+    width: 14vw;
+    margin-right: 1vw;
+}
+.ab_b3_3{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    margin-bottom: 150px;
+}
+.abc :hover {
+    transform: scale(1.02);
+}
+.ab_b3_3 > div > img{
+    width: 14vw;
+    margin-right: 6vw;
+}
+.ab_b3_4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2vw;
+    margin-top: 4vw;
+    position: inherit;
+    z-index: 10;
+    height: 100%;
+    width: 50%;
+    margin-bottom: 150px;
+}
+.ab_b3_4 > div > img{
+    width: 202px;
+    height: 180px;
+    aspect-ratio: auto 402 / 340;
+}
+.ab_b3_3 > div > img :hover{
+    transform: scale(1.12);
+}
